@@ -1,0 +1,33 @@
+body {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    min-width: 260px;
+}
+
+main {
+    background-color:antiquewhite;
+    padding: 24px;
+    width: 300px;
+    min-width: 220px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+}
+
+
+#profile-image {
+    max-width: 150px;
+    border-radius: 80%;
+    aspect-ratio: 1 / 1;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    justify-self: center;
+}
