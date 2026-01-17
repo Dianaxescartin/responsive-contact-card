@@ -54,3 +54,27 @@ main {
         max-width: 165px;
     }
 }
+
+@media (min-width: 768px) {
+    main {
+        width: 800px;
+        min-width: 680px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0 16px;
+    }
+    #profile-image-container {
+        flex-basis: 100%;
+        width: 50%;
+        align-content: center;
+    }
+    #contact-details, #company-inf {
+        flex: 1;
+        width: 50%;
+        align-content: center;
+    }
+    #profile-image {
+        max-width: 250px;
+    }
+}
